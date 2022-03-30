@@ -1,0 +1,885 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1788px;
+    
+    background: #FFFFFF;
+}
+
+.container .home {
+    position: absolute;
+    width: 1905px;  
+    height: 587px;
+    left: -8px;
+    top: -8px;
+    
+    background: #290742;
+}
+
+.container .home .header header{
+    position: absolute;
+    width: 1169.14px;
+    height: 44px;
+    left: 136.86px;
+    top: 0px;
+}
+
+.container .home .header header .logo img{
+    position: absolute;
+    width: 161.14px;
+    height: 36.54px;
+    left: 136.86px;
+    top: 68px;
+}
+
+.container .home .header header nav .menu {
+    position: absolute;
+    width: 348px;
+    height: 21px;
+    left: 495px;
+    top: 60px;
+}
+
+.container .home .header header nav .menu .home-selected {
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    left: 60px;
+    top: 25px;
+    
+    background: #4FFF4B;
+    transform: rotate(90deg);
+}
+
+.container .home .header header nav .menu #home {
+    position: static;
+    width: 49px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+
+    text-decoration: none;
+}
+
+.container .home .header header nav .menu #about {
+    position: static;
+    width: 47px;
+    height: 21px;
+    left: 81px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+
+    text-decoration: none;
+
+    margin-left: 0rem;
+}
+
+.container .home .header header nav .menu #categories {
+    position: static;
+    width: 87px;
+    height: 21px;
+    left: 160px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+    text-decoration: none;
+}
+
+.container .home .header header nav .menu #contact {
+    display: flex;
+    position: static;
+    width: 64px;
+    height: 21px;
+    left: 279px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 32px;
+
+    text-decoration: none;
+
+    margin-top: -1.25rem;
+    margin-left: 20rem;
+}
+
+.container .home .header header .search input {
+    position: absolute;
+    width: 230px;
+    height: 44px;
+    left: 1006px;
+    top: 64px;
+    
+    background: #170027;
+    border-radius: 4px 0px 0px 4px;
+
+    border: none;
+
+    padding-left: 36px;
+}
+
+.container .home .header header .search input:focus {
+    /* border: 2px solid blue; */
+
+    color: #FBF6FF;
+
+    background-repeat: no-repeat;
+    z-index: 2;
+
+    outline: none;
+
+    /* padding-left: 36px; */
+}
+
+.container .home .header header .search input::-webkit-input-placeholder {
+    position: absolute;
+    width: 119.7px;
+    height: 16px;
+    /* left: 1031.65px;
+    top: 78px; */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FBF6FF;
+
+    margin-left: 0px;
+    margin-top: 14px;
+}
+
+.container .home .header header .search button {
+    position: absolute;
+    width: 70px;
+    height: 44px;
+    left: 1237px;
+    top: 64px;
+    
+    background: #9E6DC2;
+    border-radius: 0px 4px 4px 0px;
+}
+
+/* .container .header header .search button img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1259px;
+    top: 74px;
+} */
+
+.container .home .main main .texts {
+    position: absolute;
+    width: 570px;
+    height: 311px;
+    left: 135px;
+    top: -0px;
+}
+
+.container .home .main main .texts h1 {
+    position: absolute;
+    width: 569px;
+    height: 162px;
+    left: 136px;
+    top: 172px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* or 150% */
+    
+    
+    color: #9E6DC2;
+}
+
+.container .home .main main .texts p {
+    position: absolute;
+    width: 469px;
+    height: 82px;
+    left: 136px;
+    top: 350px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    
+    color: #FBF6FF;
+}
+
+.container .home .main main .texts a {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    left: 135px;
+    top: 456px;
+
+    text-decoration: none;
+}
+
+.container .home .main main .texts a h3 {
+    position: absolute;
+    width: 80px;
+    height: 27px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #9E6DC2;
+}
+
+.container .home .main main .texts a img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 85px;
+    top: 20px;
+}
+
+.container .home .main main .texts a img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 85px;
+    top: 20px;
+}
+
+.container .home .main main .featured-image img{
+    position: absolute;
+    width: 570px;
+    height: 346px;
+    left: 875px;
+    top: 190px;
+
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.container .home .main main .green-line {
+    position: absolute;
+    width: 1905px;
+    height: 6px;
+    left: 0px;
+    top: 582px;
+    
+    background: #4FFF4B;
+}
+
+.container .home .main main .section section img {
+    position: absolute;
+    width: 569px;
+    height: 342.43px;
+    left: 265px;
+    top: 652px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.container .home .main main .section section .date-1 h3 {
+    position: absolute;
+    width: 183px;
+    height: 18.97px;
+    left: 268px;
+    top: 990px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.container .home .main main .section section .title-1 h1 {
+    position: absolute;
+    width: 569px;
+    height: 35.94px;
+    left: 268px;
+    top: 1020px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #290742;
+}
+
+.container .home .main main .section section .text-1 p {
+    position: absolute;
+    width: 569px;
+    height: 100.83px;
+    left: 268px;
+    top: 1072px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+}
+
+.container .home .main main .section section .date-2 h3 {
+    position: static;
+    width: 150.44px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 40.8rem;
+    margin-left: 60rem;
+}
+
+.container .home .main main .section section .title-2 h1 {
+    position: static;
+    width: 467.74px;
+    height: 108px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    
+    color: #290742;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+
+.container .home .main main .section section .text-2 p {
+    position: static;
+    width: 471px;
+    height: 76px;
+    left: 0px;
+    top: 143px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+
+.container .home .main main .section section .division {
+    position: absolute;
+    width: 470px;
+    height: 1px;
+    left: 960px;
+    top: 894.59px;
+    
+    background: #F2E7FA;
+}
+
+.container .home .main main .section section .date-3 h3 {
+    position: static;
+    width: 150.44px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+
+.container .home .main main .section section .title-3 h1 {
+    position: static;
+    width: 467.74px;
+    height: 36px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #290742;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+
+.container .home .main main .section section .text-3 p {
+    position: static;
+    width: 468px;
+    height: 76px;
+    left: 0px;
+    top: 71px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+
+.container .home .footer footer .images #image-1 {
+    position: absolute;
+    width: 370px;
+    height: 259.57px;
+    left: 265px;
+    top: 1270px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.container .home .footer footer .images #image-2 {
+    position: absolute;
+    width: 370px;
+    height: 259.57px;
+    left: 665px;
+    top: 1270px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.container .home .footer footer .images #image-3 {
+    position: absolute;
+    width: 370px;
+    height: 259.57px;
+    left: 1065px;
+    top: 1270px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.container .home .footer footer .dates #date-1 {
+    position: static;
+    width: 119px;
+    height: 19px;
+    left: 268px;
+    top: 990px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 16.75rem;
+    margin-top: 29.5rem;
+}
+
+.container .home .footer footer .dates #date-2 {
+    position: static;
+    width: 119px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 42rem;
+    margin-top: -1.8rem;
+}
+
+.container .home .footer footer .dates #date-3 {
+    position: static;
+    width: 119px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 67rem;
+    margin-top: -1.6rem;
+}
+
+.container .home .footer footer .titles #title-1 {
+    position: static;
+    width: 370px;
+    height: 72px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    
+    color: #290742;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 16.75rem;
+    margin-top: 1rem;
+}
+
+.container .home .footer footer .titles #title-2 {
+    position: static;
+    width: 370px;
+    height: 72px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    
+    color: #290742;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 42rem;
+    margin-top: -5rem;
+}
+
+.container .home .footer footer .titles #title-3 {
+    position: static;
+    width: 370px;
+    height: 72px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    
+    color: #290742;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 67rem;
+    margin-top: -5rem;
+}
+
+.container .home .footer footer .texts #text-1 {
+    position: static;
+    width: 370px;
+    height: 76px;
+    left: 0px;
+    top: 107px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 16.75rem;
+    margin-top: 1rem;
+}
+
+.container .home .footer footer .texts #text-2 {
+    position: static;
+    width: 370px;
+    height: 76px;
+    left: 0px;
+    top: 107px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 42rem;
+    margin-top: -5.3rem;
+}
+
+.container .home .footer footer .texts #text-3 {
+    position: static;
+    width: 370px;
+    height: 76px;
+    left: 0px;
+    top: 107px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+    margin-left: 67rem;
+    margin-top: -5.3rem;
+}
